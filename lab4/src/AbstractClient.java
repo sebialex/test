@@ -27,6 +27,8 @@ public abstract class AbstractClient implements Runnable {
 	
 	protected boolean isAlive = false;		
 	
+	protected String test = "testing change";
+	
 	/*
      ***************************** PRIVATE FIELDS ******************************
      */		

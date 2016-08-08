@@ -12,11 +12,13 @@ public class Box
 
     private double width;
     private double height;
+    private String name;
 
 
-    public Box(double width, double height){
+    public Box(String name, double width, double height){
         this.width = width;
         this.creationDate = new Date();
+        this.name = name;
     }
 
     /**
@@ -77,5 +79,29 @@ public class Box
     public void setHeight(double height)
     {
         this.height = height;
+    }
+
+    public double getArea() {
+        return this.width * this.height;
+    }
+
+    /**
+     * Getter for name
+     *
+     * @return name
+     */
+    public String getName()
+    {
+        return name;
+    }
+
+    /**
+     * Setter for name.
+     *
+     * @ param name
+     */
+    public void setName(String name)
+    {
+        this.name = name;
     }
 }

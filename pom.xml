@@ -3,9 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <!-- 7a67a8c14696190e03264b2e5111a4654f47b803 -->
-
+  
   <groupId>com.gene42</groupId>
   <artifactId>test-artifact</artifactId>
   <version>1.0</version>

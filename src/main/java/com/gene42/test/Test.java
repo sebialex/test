@@ -7,7 +7,8 @@ import com.gene42.test.util.Box;
  */
 public class Test
 {
-    public static void main(String ... args) {
+    public static void main(String ... args) throws Exception
+    {
 
         Box box = new Box("box", 1.0d, 0.5d);
         box.getArea();

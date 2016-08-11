@@ -15,7 +15,8 @@ public class Box
     private String name;
 
 
-    public Box(String name, double width, double height) throws Exception {
+    public Box(String name, double width, double height)
+    {
         this.width = width;
         this.creationDate = new Date();
         this.name = name;

@@ -83,8 +83,7 @@ public class Box
     }
 
     public double getArea() {
-        throw new Exception("blah");
-        //return this.width * this.height;
+        return this.width * this.height;
     }
 
     /**

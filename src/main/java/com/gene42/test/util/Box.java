@@ -20,8 +20,6 @@ public class Box
         this.width = width;
         this.creationDate = new Date();
         this.name = name;
-  
-
     }
 
     /**

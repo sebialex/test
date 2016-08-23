@@ -32,8 +32,8 @@ public class TestTest
      */
     @BeforeClass
     public static void setUpClass() throws Exception {
-            //test s
-    }
+            //test s asd
+    } 
 
     /**
      * Class tear down.

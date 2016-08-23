@@ -16,7 +16,7 @@ public class Test
 
             if (box.getName().equals("not-a-box")) {
                 System.exit(1);
-                // tst   asd
+                // tst   asd  666
             }
         }
         catch (Exception e) {            

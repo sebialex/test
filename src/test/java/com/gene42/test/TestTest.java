@@ -1,4 +1,11 @@
-package com.gene42.test.util;
+/*
+ * This file is subject to the terms and conditions defined in file LICENSE,
+ * which is part of this source code package.
+ *
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ */
+package com.gene42.test;
 
 import java.util.TimeZone;
 
@@ -9,9 +16,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
- * Created by sebastian on 23/08/16.
+ * Test class for BiospecimenData.
+ *
+ * @version $Id$
  */
-public class BoxTest
+public class TestTest
 {
     static {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
@@ -50,12 +59,8 @@ public class BoxTest
     }
 
     @Test
-    public void basic() throws Exception
-    {
-        Box box = new Box("box", 1.0d, 0.5d);
-        box.getArea();
-
-        box.getHeight();
-        box.getName();
+    public void basic() throws Exception {
+        com.gene42.test.Test.main();
     }
+
 }

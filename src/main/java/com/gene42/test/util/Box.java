@@ -15,10 +15,17 @@ public class Box
     private String name;
 
 
-    public Box(String name, double width, double height){
+    public Box(String name, double width, double height) throws Exception
+    {
         this.width = width;
         this.creationDate = new Date();
         this.name = name;
+
+        // Tada  
+        //test
+        //blah
+        //ert
+        //qwe
     }
 
     /**

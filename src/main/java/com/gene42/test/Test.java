@@ -13,7 +13,7 @@ public class Test
         try {
             Box box = new Box("box", 1.0d, 0.5d);
             box.getArea();
-
+            int x = 0;
             if (box.getName().equals("not-a-box")) {
                 System.exit(1);
                 // tst   asd  666

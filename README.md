@@ -1,3 +1,3 @@
 # Test repo
 
-<a href='https://ci.gene42.com/job/Test-Job'><img src='https://ci.gene42.com/buildStatus/icon?job=Test-Job'></a>
+[![Build Status](https://ci.gene42.com/buildStatus/icon?job=Test-Job)](https://ci.gene42.com/job/Test-Job/)

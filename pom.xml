@@ -6,7 +6,7 @@
 
   <groupId>com.gene42</groupId>
   <artifactId>test-artifact</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

@@ -3,7 +3,7 @@
 
   <groupId>com.gene42</groupId>
   <artifactId>test-artifact</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <dependencies>

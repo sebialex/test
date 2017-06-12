@@ -99,6 +99,7 @@
 
   <modules>
     <module>module1</module>
+    <module>distribution</module>
   </modules>
 
 </project>
